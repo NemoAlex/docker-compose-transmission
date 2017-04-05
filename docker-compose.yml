@@ -1,0 +1,6 @@
+transmission:
+    image: transmission
+    volumes:
+        - "./Downloads:/root/Downloads"
+        - "./.config:/etc/transmission-daemon"
+    net: host
