@@ -1,5 +1,5 @@
 transmission:
-    image: transmission
+    image: nemoalex/docker-transmission
     volumes:
         - "./Downloads:/root/Downloads"
         - "./.config:/etc/transmission-daemon"
